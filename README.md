@@ -1,5 +1,5 @@
-# role base authorisation app
-# Fourstrides Prototype Service Repository
+# Role base authorisation app
+# AB Microfinance Bank Service Repository
 
 Welcome to the AB Microfinance Bank repository. This repository is home to our prototype service built with laravel PHP, which resides in the `role-base-auth` folder.
 
@@ -21,7 +21,6 @@ Before setting up the Laravel project, ensure the following are installed on you
 
    ```bash
    git clone https://github.com/kingarthur11/role-base-auth.git
-   cd role-base-auth
 
 2. Navigate to the project folder:
 
@@ -64,10 +63,11 @@ Before setting up the Laravel project, ensure the following are installed on you
 
 Populate the database with seed data with relationships which includes users, roles, permissions. This can help you to quickly start testing the api and generate roles for super admin, admins and users.
 
-1. Run the database seeder and you're done:
-   ```bash
-   php artisan db:seed
-   ```
+Run the database seeder and you're done:
+
+```bash
+    php artisan db:seed
+```
 
 `Note` : It's recommended to have a clean database before seeding. You can refresh your migrations at any point to clean the database by running the following command:
 
